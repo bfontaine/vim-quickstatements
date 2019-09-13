@@ -5,7 +5,7 @@ for Vim.
 
 ## Install
 
-### With Pathogen
+### With [Pathogen](https://github.com/tpope/vim-pathogen#pathogenvim)
 
 ```bash
 git clone https://github.com/bfontaine/vim-quickstatements.git ~/bundle/
@@ -17,7 +17,7 @@ git clone https://github.com/bfontaine/vim-quickstatements.git ~/bundle/
 Plug 'bfontaine/vim-plug'
 ```
 
-### Without Pathogen
+### Manual
 
 1. Grab [a zip](https://github.com/bfontaine/vim-quickstatements/archive/master.zip)
    of this repo
