@@ -15,7 +15,6 @@ endif
 " > Each command is on a new line
 " > Each statement must consist of an entity, a property, and a value.
 
-
 " Properties
 syn match qsPropertyEntity "P[1-9]\d*"
 
@@ -57,7 +56,7 @@ syn region qsString start=+\([a-z]\{2\}:\)\?"+ end=+"+
 syn match qsQuantity "[+-]\?\d\+\(\.\d\+\)\?\(\~\d\+\(\.\d\+\)\?\|\[\d\+\(.\d\+\)\?,\d\+\(\.\d\+\)\?\]\)\?\(U\d\+\)\?"
 
 " +2011-00-00T00:00:00Z/9
-"             prefix   YYYY       MM              DD              hh      mm      ss           precision
+"             prefix   YYYY   -   MM          -   DD             T hh    : mm    : ss      /  precision
 syn match qsDate "[+-]\d\{4,\}-\(0\d\|1[0-2]\)-\([0-2]\d\|3[01]\)T[0-5]\d:[0-5]\d:[0-5]\dZ\/\(\d\|1[0-4]\)\>"
 
 "                        @<--lat--->/<--lon--->

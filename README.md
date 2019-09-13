@@ -17,7 +17,7 @@ git clone https://github.com/bfontaine/vim-quickstatements.git ~/bundle/
 Plug 'bfontaine/vim-plug'
 ```
 
-### Manual
+### Manually
 
 1. Grab [a zip](https://github.com/bfontaine/vim-quickstatements/archive/master.zip)
    of this repo
