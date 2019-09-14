@@ -4,7 +4,6 @@
 for Vim.
 
 ## Install
-
 ### With [Pathogen](https://github.com/tpope/vim-pathogen#pathogenvim)
 
 ```bash
@@ -23,3 +22,8 @@ Plug 'bfontaine/vim-plug'
    of this repo
 2. Move `ftdetect/quickstatements.vim` into `~/.vim/ftdetect/` and
    `syntax/quickstatements.vim` into `~/.vim/syntax/`
+
+## Usage
+There’s no official file extension for QuickStatements. This plugin recognize
+the `.qs` extension only. You can always `set ft=quickstatements` on any file
+by yourself.
